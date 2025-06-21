@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CDM Home - Carte de visite Esra TOTUK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            background: #3d414c;
+            color: #fff;
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 440px;
+            margin: 32px auto;
+            background: #3d414c;
+            border-radius: 22px;
+            box-shadow: 0 0 32px #2228;
+            padding: 36px 28px 32px 28px;
+            position: relative;
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 32px;
+        }
+        .logo img {
+            max-width: 320px;
+            width: 100%;
+            border-radius: 18px;
+            box-shadow: 0 2px 24px #2229;
+            background: #3d414c;
+            display: block;
+        }
+        .title {
+            text-align: center;
+            font-size: 2.3em;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin: 0 0 5px 0;
+            color: #fff;
+        }
+        .subtitle {
+            text-align: center;
+            font-size: 1.15em;
+            letter-spacing: 0.5px;
+            margin-bottom: 28px;
+            color: #dadada;
+            font-weight: 500;
+        }
+        .links {
+            margin-top: 10px;
+        }
+        .link-item {
+            background: #454a57;
+            border-radius: 11px;
+            margin: 19px 0;
+            padding: 18px 20px 13px 20px;
+            box-shadow: 0 2px 7px #2222;
+            display: flex;
+            align-items: flex-start;
+        }
+        .link-icon {
+            font-size: 2em;
+            margin-right: 24px;
+            margin-top: 2px;
+            width: 38px;
+            text-align: center;
+            flex-shrink: 0;
+        }
+        .fa-linkedin {color: #0e76a8;}
+        .fa-facebook {color: #3b5998;}
+        .fa-instagram {color: #e1306c;}
+        .fa-tiktok {color: #010101;}
+        .fa-youtube {color: #ff0000;}
+        .fa-envelope {color: #7b8494;}
+        .fa-globe {color: #1790cf;}
+        .fa-phone {color: #505767;}
+        .link-label {
+            font-size: 1.19em;
+            letter-spacing: 0.2px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 500;
+        }
+        a.link-label, a.sub-value {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        a.link-label:hover, a.sub-value:hover {
+            color: #79c6f6;
+            text-decoration: underline;
+        }
+        .sub-links {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0;
+            flex: 1;
+            margin-top: 6px;
+        }
+        .sub-link {
+            display: grid;
+            grid-template-columns: 32px 1fr;
+            align-items: center;
+            min-height: 34px;
+            margin: 0;
+        }
+        .sub-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.13em;
+            border-radius: 50%;
+            width: 28px;
+            height: 28px;
+            text-align: center;
+            background: #4e5159;
+            color: #e0e0e0;
+            border: none;
+            margin: 0;
+        }
+        .sub-value {
+            color: #fff;
+            font-size: 1.09em;
+            opacity: 0.97;
+            text-decoration: none;
+            letter-spacing: 0.1px;
+            padding-left: 2px;
+            line-height: 32px;
+            margin: 0;
+            display: block;
+        }
+        .bottom-image {
+            width: 100%;
+            display: block;
+            margin: 44px auto 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+        @media (max-width: 540px) {
+            .container { padding: 12px 2vw; }
+            .logo img { max-width: 95vw; }
+            .title { font-size: 2em; }
+            .link-item { flex-direction: column; padding: 15px 10px 10px 10px; }
+            .link-icon { margin-bottom: 8px; margin-right: 0; }
+            .bottom-image { margin-top: 25px; }
+            .sub-link { grid-template-columns: 32px 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="LOGO.jpg" alt="CDM Home Logo">
+        </div>
+        <div class="title">CDM Home</div>
+        <div class="subtitle">Esra TOTUK</div>
+        <div class="links">
+            <!-- LinkedIn -->
+            <div class="link-item">
+                <i class="fab fa-linkedin link-icon"></i>
+                <div class="sub-links">
+                    <div class="sub-link">
+                        <span class="sub-logo"><i class="fas fa-building"></i></span>
+                        <a class="sub-value" href="https://www.linkedin.com/company/cdm-home/" target="_blank">CDM Home</a>
+                    </div>
+                    <div class="sub-link">
+                        <span class="sub-logo"><i class="fas fa-user-tie"></i></span>
+                        <a class="sub-value" href="https://www.linkedin.com/in/esra-totuk/" target="_blank">Esra TOTUK</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Facebook -->
+            <div class="link-item">
+                <i class="fab fa-facebook link-icon"></i>
+                <a class="link-label" href="https://www.facebook.com/profile.php?id=61575061442672&locale=fr_FR" target="_blank">Facebook</a>
+            </div>
+            <!-- Instagram -->
+            <div class="link-item">
+                <i class="fab fa-instagram link-icon"></i>
+                <a class="link-label" href="https://www.instagram.com/cdmh.ome/" target="_blank">Instagram</a>
+            </div>
+            <!-- TikTok -->
+            <div class="link-item">
+                <i class="fab fa-tiktok link-icon"></i>
+                <a class="link-label" href="https://www.tiktok.com/@cdmhome?is_from_webapp=1&sender_device=pc" target="_blank">TikTok</a>
+            </div>
+            <!-- YouTube -->
+            <div class="link-item">
+                <i class="fab fa-youtube link-icon"></i>
+                <a class="link-label" href="https://www.youtube.com/@CDMHome" target="_blank">YouTube</a>
+            </div>
+            <!-- Email -->
+            <div class="link-item">
+                <i class="fa fa-envelope link-icon"></i>
+                <div class="sub-links">
+                    <div class="sub-link">
+                        <span class="sub-logo"><i class="fas fa-building"></i></span>
+                        <a class="sub-value" href="mailto:contact@cdm-home.fr">contact@cdm-home.fr</a>
+                    </div>
+                    <div class="sub-link">
+                        <span class="sub-logo"><i class="fas fa-user-tie"></i></span>
+                        <a class="sub-value" href="mailto:etotuk@cdm-home.fr">etotuk@cdm-home.fr</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Site internet -->
+            <div class="link-item">
+                <i class="fa fa-globe link-icon"></i>
+                <a class="link-label" href="https://cdm-home.fr/" target="_blank">Site internet</a>
+            </div>
+            <!-- Téléphone -->
+            <div class="link-item">
+                <i class="fa fa-phone link-icon"></i>
+                <div class="sub-links">
+                    <div class="sub-link">
+                        <span class="sub-logo"><i class="fas fa-building"></i></span>
+                        <a class="sub-value" href="tel:0988414270">09.88.41.42.70</a>
+                    </div>
+                    <div class="sub-link">
+                        <span class="sub-logo"><i class="fas fa-user-tie"></i></span>
+                        <a class="sub-value" href="tel:0661604343">06.61.60.43.43</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- IMAGE ARCHITECTURE EN BAS -->
+        <img class="bottom-image" src="ligne_archi.png" alt="Ligne architecturale CDM Home">
+    </div>
+</body>
+</html>
